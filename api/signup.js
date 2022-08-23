@@ -3,7 +3,7 @@ const router = express.Router();
 const UserModel = require("../models/UserModel");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-const isEmail = require("validator/lib/isEmail");
+// const isEmail = require("validator/lib/isEmail");
 const regexUserName = /^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$/;
 
 
@@ -15,7 +15,7 @@ router.post("/", async (req, res) => {
    
   } = req.body.user;
 
-  if (!isEmail(email)) return res.status(401).send("Invalid Email");
+  // if (!isEmail(email)) return res.status(401).send("Invalid Email");
 
   if (password.length < 6) {
     return res.status(401).send("Password must be atleast 6 characters");
