@@ -126,13 +126,13 @@ function Signup() {
                       <div className=' flex  justify-center p-3'><Button className='bg-slate-800 text-white text-lg w-fit p-1 h-auto hover:cursor-pointer hover:text-yellow-300 hover:bg-slate-600 hover:font-bold rounded-md'>Signup</Button></div>
 
   
+                      <div className="text-red-600 text-2xl font-semibold">
 
+                          {errorMsg}
+                      </div>
 
                   </div>
-                  <div className="text-red-600 text-2xl font-semibold">
-
-                  {errorMsg}
-                  </div>
+                 
 
               </Form>
               <div className='m-auto'>
