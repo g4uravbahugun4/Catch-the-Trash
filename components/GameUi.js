@@ -3,12 +3,12 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import Navbar from './Navbar'
 
-import Router from 'next/router'
+
 import axios from 'axios'
 import baseUrl from '../utils/baseUrl'
 
 import cookie from "js-cookie";
-import GameEnd from './gameEnd'
+import GameEnd from './GameEnd'
 
 
 
