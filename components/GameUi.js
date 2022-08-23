@@ -29,7 +29,7 @@ function GameUi({ user }) {
   const [hidden3, setHidden3] = useState(false)
 const [showGameEnd, setShowGameEnd] = useState(false)
 
-  const [timer, setTimer] = useState(10)
+  const [timer, setTimer] = useState(60)
  
   
 
