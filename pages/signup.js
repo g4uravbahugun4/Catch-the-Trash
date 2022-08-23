@@ -90,7 +90,8 @@ function Signup() {
                   <div className='bg-red p-2 w-full h-full flex flex-col justify-evenly'>
                       <div className='text-yellow-300 text-xl font-bold text-center'>Create Account</div>
 
-                      <div className='ml-[25%]' ><Form.Input
+                      <div className='ml-[25%]  ' ><Form.Input
+                          className=" max-w-full"
                           label='name:'
                           name="name"
                           value={name}
@@ -98,14 +99,12 @@ function Signup() {
                           </div>
 
 
-                      <div className='ml-[25%]' ><Form.Input
+                      <div className='ml-[25%]  w-auto' ><Form.Input
+                          className=" max-w-full"
                           label='email:'
                           name="email"
                           value={email}
-                          icon={{
-                              name: "envelope",
-                              color: "red",
-                          }}
+                         
                           iconPosition="left"
                           onChange={handleChange}></Form.Input>
                          
@@ -113,6 +112,7 @@ function Signup() {
 
 
                       <div className='ml-[25%]'><Form.Input
+                          className=" max-w-full"
                           label='password:'
                           name="password"
                           value={password}

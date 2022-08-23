@@ -93,7 +93,8 @@ function Login() {
                         
 
 
-                        <div className='ml-[25%]' ><Form.Input
+                        <div className='ml-[25%]  ' ><Form.Input
+                            className="max-w-full"
                             label='email:'
                             name="email"
                             value={email}
@@ -107,7 +108,8 @@ function Login() {
                         </div>
 
 
-                        <div className='ml-[25%]'><Form.Input
+                        <div className='ml-[25%] '><Form.Input
+                            className="max-w-full "
                             label='password:'
                             name="password"
                             value={password}
