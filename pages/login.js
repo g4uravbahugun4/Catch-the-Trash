@@ -15,7 +15,7 @@ function Login() {
         password: "",
 
     });
-
+    const [errorMsg, setErrorMsg] = useState(null);
     const { email, password, } = user;
 
     const handleChange = e => {
@@ -38,7 +38,7 @@ function Login() {
 
 
 
-        await loginUser(user);
+        await loginUser(user,setErrorMsg);
     };
 
     return (

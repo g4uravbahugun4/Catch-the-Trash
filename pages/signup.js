@@ -15,7 +15,7 @@ function Signup() {
     password: "",
   
   });
-
+  const [errorMsg, setErrorMsg] = useState(null);
   const { name, email, password, } = user;
 
   const handleChange = e => {
@@ -38,7 +38,7 @@ function Signup() {
 
    
 
-    await registerUser(user);
+    await registerUser(user,setErrorMsg);
   };
 
   return (

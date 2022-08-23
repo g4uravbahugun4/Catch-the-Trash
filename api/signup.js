@@ -3,7 +3,7 @@ const router = express.Router();
 const UserModel = require("../models/UserModel");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-// const isEmail = require("validator/lib/isEmail");
+const isEmail = require("validator/lib/isEmail");
 const regexUserName = /^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$/;
 
 
