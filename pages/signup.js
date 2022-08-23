@@ -129,6 +129,10 @@ function Signup() {
 
 
                   </div>
+                  <div className="text-red-600 text-2xl font-semibold">
+
+                  {errorMsg}
+                  </div>
 
               </Form>
               <div className='m-auto'>

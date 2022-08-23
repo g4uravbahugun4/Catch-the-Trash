@@ -10,7 +10,7 @@ import { loginUser } from "../utils/authUser";
 
 function Login() {
     const [user, setUser] = useState({
-      
+
         email: "",
         password: "",
 
@@ -38,7 +38,7 @@ function Login() {
 
 
 
-        await loginUser(user,setErrorMsg);
+        await loginUser(user, setErrorMsg);
     };
 
     return (
@@ -90,7 +90,7 @@ function Login() {
                     <div className='bg-red p-2 w-full h-full flex flex-col justify-evenly'>
                         <div className='text-yellow-300 text-xl font-bold text-center'>Play Game</div>
 
-                        
+
 
 
                         <div className='ml-[25%]  ' ><Form.Input
@@ -122,6 +122,10 @@ function Login() {
 
                         <div className=' flex  justify-center p-3'><Button className='bg-slate-800 text-white text-lg w-fit p-1 h-auto hover:cursor-pointer hover:text-yellow-300 hover:bg-slate-600 hover:font-bold rounded-md'>Play now</Button></div>
 
+                        <div className="text-red-600 text-2xl font-semibold">
+
+                            {errorMsg}
+                        </div>
 
 
 
