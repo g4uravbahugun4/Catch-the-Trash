@@ -9,7 +9,7 @@ router.get("/", authMiddleware, async (req, res) => {
    
    
     try {
-      const users = await UserModel.find().sort({ point: -1 });
+      const users = await UserModel.find().sort({ point: -1 }).limit(10);
      
       if (!users) {
        

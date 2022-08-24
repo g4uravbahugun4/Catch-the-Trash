@@ -158,11 +158,11 @@ const [showGameEnd, setShowGameEnd] = useState(false)
 
               <div className='w-2/3 bg-blue-400 flex ' onDragOver={ondragover}  >
 
-          {!hidden ? <div className='w-fit h-fit animate-fall  delay-500 p-[5%] '><img src='/trash.png' className='ml-5 w-[70%] hover:cursor-pointer  ' draggable='true' onDrag={ondrag} onDragStart={dragstart}  ></img></div> : null}
+          {!hidden ? <div className='w-fit h-fit animate-fall  delay-500 p-[5%] '><img src='/trash.png' className='ml-5 w-[70%]  hover:cursor-pointer  ' draggable='true' onDrag={ondrag} onDragStart={dragstart}  ></img></div> : null}
 
-          {!hidden1 ? <div className='w-fit h-fit  animate-fall p-[5%]'><img src='/trash2.png' className='w-[80%] hover:cursor-pointer' draggable='true' onDrag={ondrag1} onDragStart={dragstart}  ></img></div> : null}
+          {!hidden1 ? <div className='w-fit h-fit  animate-fall p-[5%]'><img src='/trash2.png' className='w-[80%] hover:cursor-pointer ' draggable='true' onDrag={ondrag1} onDragStart={dragstart}  ></img></div> : null}
 
-          {!hidden2 ? <div className='w-fit h-fit animate-fall2  delay-200 p-[5%]'><img src='/trash3.png' className='w-auto hover:cursor-pointer     ' draggable='true' onDrag={ondrag2} onDragStart={dragstart}  ></img></div> : null}
+          {!hidden2 ? <div className='w-fit h-fit animate-fall2  delay-200 p-[5%]'><img src='/trash3.png' className='w-auto hover:cursor-pointer  h-36    ' draggable='true' onDrag={ondrag2} onDragStart={dragstart}  ></img></div> : null}
 
           {!hidden3 ? <div className='w-fit h-fit animate-fall3 p-[5%]'><img src='/trash4.png' className='w-[50%] hover:cursor-pointer      ' draggable='true' onDrag={ondrag3} onDragStart={dragstart}  ></img></div> : null}
 
