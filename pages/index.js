@@ -25,7 +25,7 @@ export default function Home({ user }) {
       {renderGameUi===true ? <GameUi user={user} /> : <>
 
         <Navbar user={user.name} />
-        <main className='h-full -z-10 bg-lime-300 m-auto flex flex-row justify-evenly '>
+        <main className='h-screen -z-10 bg-lime-300 m-auto flex flex-row justify-evenly '>
 
           <div className='font-medium  justify-center m-auto text-xl w-[8192rem] p-5 text-black'>There will be a bucket at the bottom of the page. And from the top right corner, random garbage will keep falling down. The goal of the game is that the user will grab that garbage with their mouse, drag it and drop it inside the bucket. If they drop it inside, they get a +1 score.Try to drop as many garbage as possible in the bucket till the time runs out. You have 60 seconds.
 
