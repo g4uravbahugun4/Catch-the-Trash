@@ -148,7 +148,7 @@ const [showGameEnd, setShowGameEnd] = useState(false)
             <main className='h-screen flex bg-pink-300 overflow-hidden -z-10' onDrop={ondropwrong}>
 
 
-        <div className='w-2/6 bg-slate-500 text-black font-bold text-2xl select-none' draggable='false' unselectable='on'   onDragOver={ondragover}>Score:{score} <br></br>  <div> timer:{timer} </div>
+        <div className='w-2/6 bg-slate-500 text-black font-bold text-2xl select-none' draggable='false'    onDragOver={ondragover}>Score:{score} <br></br>  <div> timer:{timer} </div>
              
             
 
