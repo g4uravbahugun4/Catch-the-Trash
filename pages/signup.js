@@ -48,25 +48,25 @@ function Signup() {
           <div className='  z-0 w-fit  '>
               <img src='/papertrash.png' className='animate-fall absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[10%]  '>
+          <div  className='  z-0 w-fit ml-[10%]  '>
               <img src='/trash1.png' className='animate-fall1 absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[20%]  '>
+          <div  className='  z-0 w-fit ml-[20%]  '>
               <img src='/trash.png' className='animate-fall3 absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[30%]  '>
+          <div  className='  z-0 w-fit ml-[30%]  '>
               <img src='/papertrash.png' className='animate-fall absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[60%]  '>
+          <div  className='  z-0 w-fit ml-[60%]  '>
               <img src='/trash3.png' className='animate-fall2 absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[70%]  '>
+          <div  className='  z-0 w-fit ml-[70%]  '>
               <img src='/papertrash.png' className='animate-fall1 absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[80%]  '>
+          <div  className='  z-0 w-fit ml-[80%]  '>
               <img src='/trash4.png' className='animate-fall3 absolute z-10 w-1/12' />
           </div>
-          <div div className='  z-0 w-fit ml-[90%]  '>
+          <div  className='  z-0 w-fit ml-[90%]  '>
               <img src='/papertrash.png' className='animate-fall absolute z-10 w-1/12' />
           </div>
 
