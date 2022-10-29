@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node server.js",
-    "build": "next build && npm clean-install",
+    "build": "next build ",
     "start": "NODE_ENV=production node server.js",
     "export":"next export",
     "lint": "next lint"
