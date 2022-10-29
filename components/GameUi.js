@@ -153,7 +153,7 @@ const [showGameEnd, setShowGameEnd] = useState(false)
             
 
 
-                <img src='/dustbin.png' unselectable='on'  draggable='false' className='w-2/6 flex mt-[50vh] ml-[30%] ' onDragOver={mouseOndustbin} onDrop={ondrop} ></img>
+                <img src='/dustbin.png'   draggable='false' className='w-2/6 flex mt-[50vh] ml-[30%] ' onDragOver={mouseOndustbin} onDrop={ondrop} ></img>
               </div>
 
               <div className='w-2/3 bg-blue-400 flex ' onDragOver={ondragover}  >
