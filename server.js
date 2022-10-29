@@ -13,7 +13,9 @@ const connectDb = require("./utilsServer/connectDb");
 connectDb();
 
 app.use(express.json());
-app.use(cors())
+app.use(cors({
+  origin: 'http://catch-the-trash.herokuapp.com/'
+}));
 
 const PORT = process.env.PORT || 3000;
 
